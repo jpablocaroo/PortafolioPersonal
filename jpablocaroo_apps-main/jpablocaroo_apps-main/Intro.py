@@ -7,7 +7,7 @@ BASE = Path(__file__).parent
 def cargar(nombre):
     return Image.open(BASE / nombre)
   
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Aplicaciones Realizadas.")
 
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")
@@ -25,7 +25,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Clase 1:")
  image = cargar('txt_to_audio2.png')
  st.image(image, width=190)
  st.write("En el siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
