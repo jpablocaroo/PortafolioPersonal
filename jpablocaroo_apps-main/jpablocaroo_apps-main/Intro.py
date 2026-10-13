@@ -33,10 +33,10 @@ with col1:
  st.write(f"Fruta más parecida: [Enlace]({url})")
 
  st.subheader("Proyecto 2")
- image = cargar('pttf2.jpg')
+ image = cargar('ptf2.jpg')
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo las derivadas y el gradiente permiten transformar un problema matemático en un proceso computacional de búsqueda y optimización.") 
- url = "https://yolov5cmc.streamlit.app/"
+ url = "https://proyecto2cajp.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
