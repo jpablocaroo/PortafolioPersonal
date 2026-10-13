@@ -13,8 +13,8 @@ with st.sidebar:
   st.subheader("Aplicaciones Realizadas en Clase.")
   parrafo = (
     "En este sitio web podremos observar el portafolio de aplicaciones desarrolladas "
-    "en clase, donde podremos explorar diversos sitios wep, pensados para aprender un "
-    "poco respecto a la optimizacion de codigo, vectores, matrices, entre muchos otros."
+    "en clase, donde podremos explorar diversos sitios web, pensados para aprender un "
+    "poco respecto a la optimizacion de codigo usando estrategias interesantes."
   )
   st.write(parrafo)
 
@@ -39,12 +39,12 @@ with col1:
  url = "https://proyecto2cajp.streamlit.app/"
  st.write(f"Descenso de Gradiente: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = cargar('OIG5.jpg')
+ st.subheader("Proyecto 3")
+ image = cargar('ptf3.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos la cadena causal entre la lógica, la complejidad (Big-O) y la vectorización.") 
+ url = "https://proyecto3ca.streamlit.app/"
+ st.write(f"Detector de anomalías: [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto")
