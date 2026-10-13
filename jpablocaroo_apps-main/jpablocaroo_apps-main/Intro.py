@@ -26,7 +26,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
  
  st.subheader("Clase 1:")
- image = cargar('txt_to_audio2.png')
+ image = cargar('ptf1.png')
  st.image(image, width=190)
  st.write("En el siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
  url = "https://imultimod.streamlit.app/"
