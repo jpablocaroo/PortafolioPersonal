@@ -10,15 +10,15 @@ def cargar(nombre):
 st.title("Aplicaciones Realizadas.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Aplicaciones Realizadas en Clase.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "En este sitio web podremos observar el portafolio de aplicaciones desarrolladas "
+    "en clase, donde podremos explorar diversos sitios wep, pensados para aprender un "
+    "poco respecto a la optimizacion de codigo, vectores, matrices, entre muchos otros."
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
+url_ia="https://sites.google.com/view/computacinavanzada/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
