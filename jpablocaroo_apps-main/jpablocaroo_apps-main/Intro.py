@@ -37,7 +37,7 @@ with col1:
  st.image(image, width=200)
  st.write("En el siguiente enlace veremos cómo las derivadas y el gradiente permiten optimizar un problema matematico.") 
  url = "https://proyecto2cajp.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"Descenso de Gradiente: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = cargar('OIG5.jpg')
