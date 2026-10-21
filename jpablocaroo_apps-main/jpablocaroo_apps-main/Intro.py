@@ -70,7 +70,7 @@ with col2:
  st.write(f"Regresión: [Enlace]({url})")
 
  st.subheader("Proyecto 7")
- image = cargar('ptf7.png')
+ image = cargar('ptf7.jpg')
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos predicción de variables IoT mediante series de tiempo (ARIMA y Suavizado Exponencial).") 
  url = "https://proyecto7ca.streamlit.app/"
