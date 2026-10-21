@@ -50,7 +50,7 @@ with col2:
  st.subheader("Proyecto 4")
  image = cargar('ptf4.jpg')
  st.image(image, width=200)
- st.write("Antes de construir cualquier modelo o método computacional, es necesario entender, limpiar y estructurar los datos disponibles.") 
+ st.write("En el siguiente enlace, aprenderemos a preparar datos antes de construir cualquier modelo o método computacional.") 
  url = "https://proyecto4ca.streamlit.app/"
  st.write(f"Preparacion de Datos: [Enlace]({url})")
 
