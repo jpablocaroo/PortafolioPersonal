@@ -52,7 +52,7 @@ with col2:
  st.image(image, width=200)
  st.write("Antes de construir cualquier modelo o método computacional, es necesario entender, limpiar y estructurar los datos disponibles.") 
  url = "https://proyecto4ca.streamlit.app/"
- st.write(f"Datos, preparacion y estrucutra [Enlace]({url})")
+ st.write(f"Preparacion de Datos: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = cargar('data_analisis.png')
