@@ -47,11 +47,11 @@ with col1:
  st.write(f"Detector de anomalías: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = cargar('OIG8.jpg')
+ st.subheader("Proyecto 4")
+ image = cargar('ptf4.jpg')
  st.image(image, width=200)
- st.write("En el siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
+ st.write("En el siguiente link aprenderemos que antes de construir cualquier modelo o método computacional, es necesario entender, limpiar y estructurar los datos disponibles.") 
+ url = "https://proyecto4ca.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
