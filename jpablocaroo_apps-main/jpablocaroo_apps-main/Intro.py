@@ -46,7 +46,6 @@ with col1:
  url = "https://proyecto3ca.streamlit.app/"
  st.write(f"Detector de anomalías: [Enlace]({url})")
 
-with col2: 
  st.subheader("Proyecto 4")
  image = cargar('ptf4.jpg')
  st.image(image, width=200)
@@ -54,41 +53,71 @@ with col2:
  url = "https://proyecto4ca.streamlit.app/"
  st.write(f"Preparacion de Datos: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = cargar('data_analisis.png')
- st.image(image, width=190)
- st.write("En el siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+with col2: 
 
- st.subheader("Trasnscriptor Audio y Video")
- image = cargar('OIG3.jpg')
+ st.subheader("Proyecto 5")
+ image = cargar('ptf5.jpg')
+ st.image(image, width=190)
+ st.write("En el siguiente enlace veremos el uso de una APIs y endpoints para traer informacion de MARCO") 
+ url = "https://dataagente.streamlit.app/"
+ st.write(f"Portafolio MARCO [Enlace]({url})")
+
+ st.subheader("Proyecto 6")
+ image = cargar('ptf6.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos como realizamos transcripciones de audio/video.") 
+ st.write("En el siguiente enlace aprenderemos a evaluar la calidad de las predicciones mediante métricas como R², MAE y RMSE") 
  url = "https://transcript-whisper.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
-
-with col3: 
- st.subheader("Generación en Contexto")
- image = cargar('Chat_pdf.png')
+ st.subheader("Proyecto 7")
+ image = cargar('ptf7.png')
  st.image(image, width=190)
  st.write("En el siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
  url = "https://chatpdf-cc.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
- image = cargar('OIG4.jpg')
+ st.subheader("Proyecto 8")
+ image = cargar('ptf8.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
- 
- st.subheader("Sistema Ciberfísico")
- image = cargar('OIG6.jpg')
+    
+with col3: 
+
+ st.subheader("Proyecto 9")
+ image = cargar('ptf9.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ url = "https://vision2-gpt4o.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+    
+
+ st.subheader("Proyecto 10")
+ image = cargar('ptf10.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
+ st.subheader("Proyecto 11")
+ image = cargar('ptf11.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ url = "https://vision2-gpt4o.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("Proyecto 12")
+ image = cargar('ptf12.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ url = "https://vision2-gpt4o.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
+
+ st.subheader("Proyecto 13")
+ image = cargar('ptf13.jpg')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ url = "https://vision2-gpt4o.streamlit.app/"
+ st.write(f"Vision: [Enlace]({url})")
 
