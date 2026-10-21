@@ -96,15 +96,15 @@ with col3:
  st.subheader("Proyecto 10")
  image = cargar('ptf10.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En este enlace veremos como podemos pasar de predecir un número a la elección de clases") 
+ url = "https://proyecto10ca.streamlit.app/"
+ st.write(f"De regresion lineal a logistica: [Enlace]({url})")
 
  st.subheader("Proyecto 11")
  image = cargar('ptf11.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("KNN para clasificación y regresión: un método intuitivo con aplicaciones en recomendación, salud, agricultura y detección de anomalías.") 
+ url = "https://clasificacionknnca.streamlit.app/"
+ st.write(f"Clasificación Knn: [Enlace]({url})")
 
 
