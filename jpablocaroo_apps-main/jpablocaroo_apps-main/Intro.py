@@ -59,38 +59,38 @@ with col2:
  image = cargar('ptf5.jpg')
  st.image(image, width=190)
  st.write("En el siguiente enlace veremos el uso de una APIs y endpoints para traer informacion de MARCO") 
- url = "https://dataagente.streamlit.app/"
+ url = "https://portafoliomarco.streamlit.app/"
  st.write(f"Portafolio MARCO [Enlace]({url})")
 
  st.subheader("Proyecto 6")
  image = cargar('ptf6.jpg')
  st.image(image, width=200)
  st.write("En el siguiente enlace aprenderemos a evaluar la calidad de las predicciones mediante métricas como R², MAE y RMSE") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ url = "https://proyecto6ca.streamlit.app/"
+ st.write(f"Regresión: [Enlace]({url})")
 
  st.subheader("Proyecto 7")
  image = cargar('ptf7.png')
  st.image(image, width=190)
- st.write("En el siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos predicción de variables IoT mediante series de tiempo (ARIMA y Suavizado Exponencial).") 
+ url = "https://proyecto7ca.streamlit.app/"
+ st.write(f"Series de tiempo: [Enlace]({url})")
 
  st.subheader("Proyecto 8")
  image = cargar('ptf8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos predicción de PM2.5 y PM10 mediante ARIMA, SARIMA y Holt-Winters, apoyando la gestión de la calidad del aire.") 
+ url = "https://proyecto8ca.streamlit.app/"
+ st.write(f"Prediccion: [Enlace]({url})")
     
 with col3: 
 
  st.subheader("Proyecto 9")
  image = cargar('ptf9.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("Sistema de IoT Captura de datos y procesamiento. En esta enlace utilizaremos tecnologías de IoT para la obtención de datos propios.") 
+ url = "https://proyecto9ca.streamlit.app/"
+ st.write(f"Sistemas IoT: [Enlace]({url})")
     
 
  st.subheader("Proyecto 10")
@@ -107,17 +107,4 @@ with col3:
  url = "https://vision2-gpt4o.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
 
- st.subheader("Proyecto 12")
- image = cargar('ptf12.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
-
- st.subheader("Proyecto 13")
- image = cargar('ptf13.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
 
